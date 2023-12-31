@@ -19,8 +19,9 @@ const IconRenderer: FC<IconRendererProps> = ({
 }) => {
   return (
     <div
+      tabIndex={0}
       onClick={onClick}
-      className={`flex items-center justify-center w-[32px] h-[32px] p-1 cursor-pointer dark:hover:bg-[#323232] hover:bg-[#e8e8e8] transition-colors rounded-md ${className}`}
+      className={`flex items-center justify-center w-[32px] h-[32px] p-1 cursor-pointer dark:hover:bg-[#323232] hover:bg-[#e8e8e8] transition-colors rounded-md  ${className}`}
     >
       {children}
     </div>
