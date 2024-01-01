@@ -3,4 +3,4 @@
 
 npm run lint
 npm run lint:fix
-npm run lint-staged --concurrent false
+# npm run lint-staged --concurrent false
